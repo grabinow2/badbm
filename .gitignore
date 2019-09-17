@@ -1,16 +1,5 @@
-# eclipse items
-.project
-.settings
-.classpath
+# Ignore Gradle project-specific cache directory
+.gradle
 
-# build artifacts
+# Ignore Gradle build output directory
 build
-bin/
-
-# program execution artifacts
-jDiskMarkData/
-doc/
-
-#MAC junk
-.DS_Store
-
