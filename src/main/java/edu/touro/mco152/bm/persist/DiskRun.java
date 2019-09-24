@@ -127,12 +127,7 @@ public class DiskRun implements Serializable {
         setRunAvg(avg);
     }
 
-    /**
-     * Returns how long the disk took to run, or tells you it does not know
-     * how long it took because it has no end time
-     * @author Ezra Koppel
-     * @return a string representing the time it takes to run the disk
-     */
+
     public String getDuration() {
         if (getEndTime() == null) {
             return "unknown";
@@ -193,8 +188,8 @@ public class DiskRun implements Serializable {
 	}
 
 	public void setNumMarks(int numMarks) {
-		this.numMarks = numMarks;
-	}
+		this.numMarks = 5;
+	} //TODO Fix from brake during test HW!!
 
 	public int getNumBlocks() {
 		return numBlocks;
