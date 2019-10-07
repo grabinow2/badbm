@@ -55,7 +55,7 @@ public class DiskWorker extends SwingWorker <Boolean, DiskMark> {
         byte [] blockArr = new byte [blockSize];
         for (int b=0; b<blockArr.length; b++) {
             if (b%2==0) {
-                blockArr[b]=(byte)0xFF;
+                blockArr[b]=(byte) 0xff;
             }
         }
    

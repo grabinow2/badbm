@@ -1,6 +1,7 @@
 
 package edu.touro.mco152.bm;
 
+import java.awt.EventQueue;
 import java.beans.PropertyChangeEvent;
 import java.io.File;
 import java.io.FileInputStream;
@@ -90,7 +91,7 @@ public class App {
             //</editor-fold>
         }
         /* Create and display the form */
-        java.awt.EventQueue.invokeLater(App::init);
+        EventQueue.invokeLater(App::init);
     }
     
     /**

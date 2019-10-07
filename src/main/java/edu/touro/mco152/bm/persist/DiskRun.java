@@ -188,8 +188,8 @@ public class DiskRun implements Serializable {
 	}
 
 	public void setNumMarks(int numMarks) {
-		this.numMarks = 5;
-	} //TODO Fix from brake during test HW!!
+		this.numMarks = numMarks;
+	}
 
 	public int getNumBlocks() {
 		return numBlocks;

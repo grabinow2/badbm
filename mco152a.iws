@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8718de41-6baf-4a9a-b3ac-148272301d60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mco152a.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mco152a.ipr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mco152a.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mco152a.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu.touro.mco152.bm/UtilTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/touro/mco152/bm/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/touro/mco152/bm/persist/DiskRunTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/DiskMark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/DiskMark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/touro/mco152/bm/persist/DiskRun.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/touro/mco152/bm/persist/DiskRun.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/mco152a.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/mco152a.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mco152a.iws" beforeDir="false" afterPath="$PROJECT_DIR$/mco152a.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/persist/DiskRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/persist/DiskRun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mco152a/Library.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -35,14 +28,12 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="mco152a" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -50,7 +41,17 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/DiskWorker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -88,6 +89,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -121,59 +124,10 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="bm" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="mco152a" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mco152a" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bm" type="462c0819:PsiDirectoryNode" />
-              <item name="persist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mco152a" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mco152a" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="mco152a" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mco152a" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mco152a" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mco152a" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mco152a" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mco152a" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bm" type="462c0819:PsiDirectoryNode" />
-              <item name="persist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mco152a" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mco152a" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="edu.touro.mco152.bm" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -213,7 +167,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DiskRunTest.setNumMarks">
+  <component name="RunManager" selected="Gradle.mco152a [build]">
+    <configuration name="mco152a [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="AppTest.getVersion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mco152a.test" />
       <extension name="coverage">
@@ -278,29 +251,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UtilTest.deleteDirectoryException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mco152a.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.touro.mco152.bm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.touro.mco152.bm" />
-      <option name="MAIN_CLASS_NAME" value="edu.touro.mco152.bm.UtilTest" />
-      <option name="METHOD_NAME" value="deleteDirectoryException(java.io.File)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.mco152a [build]" />
         <item itemvalue="JUnit.DiskRunTest.setNumMarks" />
         <item itemvalue="JUnit.AppTest.getVersion" />
         <item itemvalue="JUnit.AppTest.initPerformanceTest" />
         <item itemvalue="JUnit.DiskRunTest.setMin" />
-        <item itemvalue="JUnit.UtilTest.deleteDirectoryException" />
       </list>
     </recent_temporary>
   </component>
@@ -317,6 +274,10 @@
       <workItem from="1568688710920" duration="1379000" />
       <workItem from="1568914286953" duration="10307000" />
       <workItem from="1569266263858" duration="5530000" />
+      <workItem from="1569286141960" duration="721000" />
+      <workItem from="1569719009361" duration="1688000" />
+      <workItem from="1570062634916" duration="775000" />
+      <workItem from="1570211081613" duration="578000" />
     </task>
     <task id="LOCAL-00001" summary="first commit of BadBM for HW">
       <created>1568689489709</created>
@@ -361,12 +322,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17216000" />
+    <option name="totallyTimeSpent" value="20978000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25637585" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24026845" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -492,24 +453,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu.touro.mco152.bm/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/DiskWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3187">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu.touro.mco152.bm/AppTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/Util.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
@@ -542,10 +486,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/touro/mco152/bm/persist/DiskRunTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/persist/DiskRun.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="191" column="44" selection-start-line="191" selection-start-column="44" selection-end-line="191" selection-end-column="44" />
+        <state relative-caret-position="2363">
+          <caret line="191" column="5" selection-start-line="191" selection-start-column="5" selection-end-line="191" selection-end-column="5" />
           <folding>
             <element signature="e#0#23#1" expanded="true" />
             <element signature="e#0#19#1" expanded="true" />
@@ -553,10 +504,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/touro/mco152/bm/persist/DiskRunTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/ui/Gui.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        <state relative-caret-position="136">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/ui/MainFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/DiskWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
         </state>
       </provider>
     </entry>
