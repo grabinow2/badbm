@@ -376,4 +376,41 @@ public class Util {
         } catch(IOException | InterruptedException e) {}
         return null;
     }
+
+    /**
+     * Represents a Speed Timer (or stopwatch)
+     */
+    public static class SpeedTimer {
+
+        private long startTime;
+        private long endTime;
+        private boolean started;
+
+        public SpeedTimer(){}
+
+        /**
+         * Starts the stopwatch. Invoking this method twice without a stop() in between will reset the start time.
+         */
+        public void start(){
+            startTime = System.nanoTime();
+            started = true;
+        }
+
+        /**
+         * Stops the stopwatch. Cannot be called without having first called start().
+         * @return the elapsed time from most recent start() as a long.
+         * @throws IllegalStateException if called without calling start() first.
+         */
+        public long stop() throws IllegalStateException{
+            if (started) {
+                endTime = System.nanoTime();
+                started = false;
+                return (endTime - startTime);
+            }
+            else
+                throw new IllegalStateException("SpeedTimer.stop() can only called after SpeedTimer.start()");
+        }
+    }
+
+
 }

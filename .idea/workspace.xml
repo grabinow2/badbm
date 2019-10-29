@@ -2,22 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd729df9-2d44-4eae-a61b-ef11a4a1e8fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/edu/touro/mco152/bm/Benchmark.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/Benchmark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/SwingBenchmarker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/touro/mco152/bm/persist/DiskRun.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/touro/mco152/bm/persist/DiskRun.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/META-INF/mco152a.main.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/edu/touro/mco152/bm/Communicatable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/edu/touro/mco152/bm/DiskMarker$MarkType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/edu/touro/mco152/bm/DiskMarker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/edu/touro/mco152/bm/SwingBenchmarker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/edu/touro/mco152/bm/Util$SpeedTimer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/BenchmarkCommunicator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/SwingDiskMarkCommunicator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/touro/mco152/bm/App$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/touro/mco152/bm/App$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/touro/mco152/bm/App$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/touro/mco152/bm/App$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/touro/mco152/bm/App$State.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/touro/mco152/bm/App$State.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/touro/mco152/bm/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/touro/mco152/bm/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/touro/mco152/bm/DiskMark$MarkType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/touro/mco152/bm/DiskMark.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/touro/mco152/bm/DiskWorker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/touro/mco152/bm/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/touro/mco152/bm/Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/touro/mco152/bm/ui/Gui$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/touro/mco152/bm/ui/Gui$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/touro/mco152/bm/ui/Gui.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/touro/mco152/bm/ui/Gui.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/mco152a.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/mco152a.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mco152a.iws" beforeDir="false" afterPath="$PROJECT_DIR$/mco152a.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/META-INF/mco152a.main.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/touro/mco152/bm/persist/DiskRun.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/edu/touro/mco152/bm/persist/DiskRun.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdm.properties" beforeDir="false" afterPath="$PROJECT_DIR$/jdm.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/touro/mco152/bm/App$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/edu/touro/mco152/bm/App$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/touro/mco152/bm/App$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/edu/touro/mco152/bm/App$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/touro/mco152/bm/App$State.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/edu/touro/mco152/bm/App$State.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/touro/mco152/bm/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/edu/touro/mco152/bm/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/touro/mco152/bm/Benchmark.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/edu/touro/mco152/bm/Benchmark.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/touro/mco152/bm/DiskMark$MarkType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/touro/mco152/bm/DiskMark.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/touro/mco152/bm/DiskWorker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/touro/mco152/bm/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/edu/touro/mco152/bm/Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/touro/mco152/bm/ui/Gui$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/edu/touro/mco152/bm/ui/Gui$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/touro/mco152/bm/ui/Gui.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/edu/touro/mco152/bm/ui/Gui.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/DiskWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/DiskWorker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/persist/DiskRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/persist/DiskRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/Benchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/Benchmark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/DiskMark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/DiskMark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/DiskWorker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/SwingBenchmarker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/ui/Gui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/ui/Gui.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -72,36 +95,43 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/Benchmark.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/SwingBenchmarker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-              <folding>
-                <element signature="e#460#461#0" expanded="true" />
-                <element signature="e#484#485#0" expanded="true" />
-                <element signature="e#531#532#0" expanded="true" />
-                <element signature="e#555#556#0" expanded="true" />
-                <element signature="e#602#603#0" expanded="true" />
-                <element signature="e#626#627#0" expanded="true" />
-                <element signature="e#673#674#0" expanded="true" />
-                <element signature="e#697#698#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/DiskWorker.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/BenchmarkCommunicator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+            <state relative-caret-position="51">
+              <caret line="3" column="95" lean-forward="true" selection-start-line="3" selection-start-column="95" selection-end-line="3" selection-end-column="95" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/SwingDiskMarkCommunicator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/DiskMark.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#6250#6251#0" expanded="true" />
+                <element signature="e#6295#6296#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,8 +139,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="322" column="19" selection-start-line="322" selection-start-column="19" selection-end-line="322" selection-end-column="19" />
+            <state relative-caret-position="476">
+              <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,39 +149,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/persist/DiskRun.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/ui/Gui.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1572" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/ui/MainFrame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="841" column="21" selection-start-line="841" selection-start-column="21" selection-end-line="841" selection-end-column="21" />
-              <folding>
-                <element signature="e#3256#3290#0" expanded="true" />
-                <element signature="e#3295#3384#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/Util.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="270" column="7" selection-start-line="270" selection-start-column="7" selection-end-line="270" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/DiskMark.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+            <state relative-caret-position="1462">
+              <caret line="103" column="29" selection-start-line="103" selection-start-column="29" selection-end-line="103" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -171,6 +181,10 @@
       <find>startBenc</find>
       <find>adj</find>
       <find>ms</find>
+      <find>setProgress</find>
+      <find>datadir</find>
+      <find>isCancelled</find>
+      <find>Communicatable</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -182,22 +196,20 @@
         <option value="$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/ui/Benchmark.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/ui/MainFrame.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/ui/SelectFrame.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/DiskWorker.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/Benchmark.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/Communicatable.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/SwingBenchmarker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/DiskMarker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/BenchmarkCommunicator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/Benchmark.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/Util.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/DiskMark.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/SwingDiskMarkCommunicator.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
@@ -208,7 +220,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -242,36 +253,19 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="bm" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="mco152a" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mco152a" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bm" type="462c0819:PsiDirectoryNode" />
-              <item name="persist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mco152a" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mco152a" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bm" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/mco152a" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/listsorters/src/SpeedTimer.java" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -280,6 +274,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -296,7 +291,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Gradle.mco152a [build]">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.touro.mco152.bm.App" />
       <module name="mco152a.main" />
@@ -348,25 +343,28 @@
       <updated>1570212093706</updated>
       <workItem from="1570212097892" duration="1248000" />
       <workItem from="1570325912876" duration="142000" />
-      <workItem from="1570382205057" duration="8908000" />
+      <workItem from="1570382205057" duration="16021000" />
+      <workItem from="1570923782018" duration="19026000" />
+      <workItem from="1571790970942" duration="16891000" />
+      <workItem from="1571881189341" duration="160000" />
+      <workItem from="1572299357701" duration="3372000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10298000" />
+    <option name="totallyTimeSpent" value="56860000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27046978" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
@@ -377,9 +375,10 @@
       <window_info anchor="bottom" id="Build" order="7" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -397,13 +396,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/ui/Benchmark.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="270" column="7" selection-start-line="270" selection-start-column="7" selection-end-line="270" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/ui/MainFrame.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
@@ -444,77 +436,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/persist/DiskRun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="40" column="7" lean-forward="true" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#23#1" expanded="true" />
-            <element signature="e#0#19#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/ui/MainFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
+        <state relative-caret-position="5151">
           <caret line="841" column="21" selection-start-line="841" selection-start-column="21" selection-end-line="841" selection-end-column="21" />
           <folding>
-            <element signature="e#3256#3290#0" expanded="true" />
             <element signature="e#3295#3384#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/ui/Gui.java">
+    <entry file="file://$USER_HOME$/IdeaProjects/listsorters/src/SpeedTimer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1572" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/DiskMark.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        <state relative-caret-position="408">
+          <caret line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/DiskWorker.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/DiskWorker.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/persist/DiskRun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/ui/Gui.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1462">
+          <caret line="103" column="29" selection-start-line="103" selection-start-column="29" selection-end-line="103" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/Benchmark.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42">
+          <caret line="381" column="7" lean-forward="true" selection-start-line="381" selection-start-column="7" selection-end-line="381" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="322" column="19" selection-start-line="322" selection-start-column="19" selection-end-line="322" selection-end-column="19" />
+        <state relative-caret-position="476">
+          <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/Benchmark.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/SwingDiskMarkCommunicator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/SwingBenchmarker.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/BenchmarkCommunicator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="51">
+          <caret line="3" column="95" lean-forward="true" selection-start-line="3" selection-start-column="95" selection-end-line="3" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/touro/mco152/bm/DiskMark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
           <folding>
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-            <element signature="e#673#674#0" expanded="true" />
-            <element signature="e#697#698#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#6250#6251#0" expanded="true" />
+            <element signature="e#6295#6296#0" expanded="true" />
           </folding>
         </state>
       </provider>
