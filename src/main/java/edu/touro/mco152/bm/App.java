@@ -1,6 +1,7 @@
 
 package edu.touro.mco152.bm;
 
+import java.awt.EventQueue;
 import java.beans.PropertyChangeEvent;
 import java.io.File;
 import java.io.FileInputStream;
@@ -25,6 +26,7 @@ import javax.swing.UnsupportedLookAndFeelException;
 
 /**
  * Primary class for global variables.
+ * Represents the Client in the Strategy design pattern.
  */
 public class App {
     
@@ -59,7 +61,7 @@ public class App {
     public static int numOfBlocks = 32;     // desired number of blocks
     public static int blockSizeKb = 512;    // size of a block in KBs
     
-    public static DiskWorker worker = null;
+    public static SwingDiskMarkCommunicator worker = null;
     public static int nextMarkNumber = 1;   // number of the next mark
     public static double wMax = -1, wMin = -1, wAvg = -1;
     public static double rMax = -1, rMin = -1, rAvg = -1;
@@ -90,7 +92,7 @@ public class App {
             //</editor-fold>
         }
         /* Create and display the form */
-        java.awt.EventQueue.invokeLater(App::init);
+        EventQueue.invokeLater(App::init);
     }
     
     /**
@@ -199,11 +201,6 @@ public class App {
         }
     }
 
-    /**
-     * Creates a string to be used as the configuration string
-     * @author Ezra Koppel
-     * @return the configuration string
-     */
     public static String getConfigString() {
         StringBuilder sb = new StringBuilder();
         sb.append("Config for Java Disk Mark ").append(getVersion()).append('\n');
@@ -226,9 +223,9 @@ public class App {
         
         // populate run table with saved runs from db
         System.out.println("loading stored run data");
-        DiskRun.findAll().stream().forEach((DiskRun run) -> {
-            Gui.runPanel.addRun(run);
-        });
+//        DiskRun.findAll().stream().forEach((DiskRun run) -> {
+//            Gui.runPanel.addRun(run);
+//        });
     }
     
     public static void clearSavedRuns() {
@@ -285,7 +282,7 @@ public class App {
         if (dataDir.exists() == false) { dataDir.mkdirs(); }
         
         //7. start disk worker thread
-        worker = new DiskWorker();
+        worker = new SwingDiskMarkCommunicator();
         worker.addPropertyChangeListener((final PropertyChangeEvent event) -> {
             switch (event.getPropertyName()) {
                 case "progress":
@@ -317,7 +314,7 @@ public class App {
     }
     
     public static void updateMetrics(DiskMark mark) {
-        if (mark.type==DiskMark.MarkType.WRITE) {
+        if (mark.type== DiskMark.MarkType.WRITE) {
             if (wMax==-1 || wMax < mark.getBwMbSec()) {
                 wMax = mark.getBwMbSec();
             }

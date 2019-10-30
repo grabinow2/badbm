@@ -19,9 +19,6 @@ import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
-/**
- *
- */
 @Entity
 @Table(name="DiskRun")
 @NamedQueries({
@@ -127,12 +124,7 @@ public class DiskRun implements Serializable {
         setRunAvg(avg);
     }
 
-    /**
-     * Returns how long the disk took to run, or tells you it does not know
-     * how long it took because it has no end time
-     * @author Ezra Koppel
-     * @return a string representing the time it takes to run the disk
-     */
+
     public String getDuration() {
         if (getEndTime() == null) {
             return "unknown";

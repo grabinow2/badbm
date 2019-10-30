@@ -29,16 +29,23 @@ dependencies {
 
     // database/persistence
     api group: 'javax.persistence', name: 'javax.persistence-api', version: '2.2'
+    implementation group: 'org.eclipse.persistence', name:'org.eclipse.persistence.jpa.modelgen', version: '2.4.2'
+    implementation group: 'org.eclipse.persistence', name: 'eclipselink', version: '2.7.4'
     
-    implementation group: 'org.eclipse.persistence', name: 
-'org.eclipse.persistence.jpa.modelgen', 
-version: '2.4.2'
+    // DBM    
+    implementation group: 'org.apache.derby', name: 'derby', version: '10.13.1.1'
     
-implementation group: 'org.eclipse.persistence', name: 'eclipselink', version: '2.7.4'
-    
-    // DBMS
-    
-implementation group: 'org.apache.derby', name: 'derby', version: '10.13.1.1'
+    // Junit 5
+    testImplementation('org.junit.jupiter:junit-jupiter:5.5.2')
+}
+
+test {
+
+    useJUnitPlatform()
+
+    testLogging {
+        events "passed", "skipped", "failed"
+    }
 
 }
 
