@@ -4,13 +4,17 @@ import java.io.File;
 import java.io.IOException;
 
 /**
- * An object that can perform benchmark tests on various computer components. This interface represents the Strategy
- * interface of the Strategy design pattern.
+ * An object that can perform benchmark tests on various computer components.
+ *
+ * A benchmark test, in the context of this class library, is defined of being comprised of three parts:
+ * parameters that define the scope and type of test, testing logic/procedure, output of results of a test.
+ *
+ * This interface represents the Strategy interface of the Strategy design pattern.
  */
 public interface Benchmark {
 
     /**
-     * This method will run the benchmark test in its entirety.
+     * This method will run the benchmark test in its entirety. The testing logic/procedure.
      *
      * @return An object that can contain statistics of the test
      * @throws Exception In the event of some exception. For instance, an IOException when

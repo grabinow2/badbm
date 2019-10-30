@@ -9,7 +9,9 @@ import java.text.DecimalFormat;
 import java.util.Date;
 
 /**
- * This class is the Concrete Strategy Object in the Strategy design pattern.
+ * This class is the Concrete Strategy Object in the Strategy design pattern. DiskMark takes a BenchmarkCommunicator in
+ * its constructor to use as the implementation of its output methods, thereby Inverting the Dependency of knowing the
+ * appropriate output implementation that it would otherwise have.
  */
 public class DiskMark implements Benchmark {
 
@@ -61,7 +63,8 @@ public class DiskMark implements Benchmark {
     }
 
     /**
-     * Sets up the Disk Benchmark test. NOTE: it is necessary to invoke this method prior to invoking start().
+     * Establishes the parameters of a Disk benchmark test. NOTE: it is necessary to invoke this method prior to
+     * invoking start().
      *
      * @param type determines if this will be a Write or Read test
      * @param numOfBlocks how many blocks will be written/read to/from
@@ -69,7 +72,7 @@ public class DiskMark implements Benchmark {
      * @param blockSize the size of a block in the client system's disk
      * @param startFileNumber the number of the starting file (if using multifile)
      * @param run the DiskRun object that will be used in the testing operation
-     * @param randomAccessFileMode the second parameter of java.io.RandomAccessFile 's c-tor
+     * @param randomAccessFileMode the second parameter of java.io.RandomAccessFile's c-tor
      * @param multiFile true if every mark written/read is to/from a different file.
      * @param testFileDirAsString
      */
